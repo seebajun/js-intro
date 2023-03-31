@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="divcontainer">
+        <div class="card">
+            <img src="./assets/img/card.webp" alt="">
+            <h4>Laptop Gamer AMD</h4>
+            <input id="cantidad" type="number" placeholder="Cantidad">
+            <input id="color" type="text" placeholder="Color">
+            <div class="precio">
+                <h3>Precio:</h3>
+                <h3 id="precio">400000</h3>
+            </div>
+            <input class="boton" id="calcular" type="button" value="Calcular total">
+        </div>
+        <div class="resultado">
+            <div class="resultadoflex">
+                <h2>Total:</h2>
+                <h2 id="total">$</h2>
+            </div>
+            <div class="resultadoflex">
+                <h2>Cantidad:</h2>
+                <h2 id="cantidadProducto">0</h2>
+            </div>
+            <div class="resultadoflex">
+                <h2>Color:</h2>
+                <h2 class="resultadoColor" id="colorResultado"></h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./assets/js/script.js"></script>
+
+</html>
